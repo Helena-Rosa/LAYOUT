@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: rgb(255, 0, 166) ;
+    --text-color: #333;
+    --bg-color:#fff;
+    --font-family: 'Roboto', sans-serif;
+
+}
+
+.page{
+
+}
+
+.control-group{
+
+}
+
+
+.main{
+
+}
+
+.news{
+
+}
+
+/* quando o body estiver com a classe. dark*/
+body{
+    --text-color: #f1f1f1;
+    --bg-color:#121212;
+}
