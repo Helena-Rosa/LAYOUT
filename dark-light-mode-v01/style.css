@@ -5,7 +5,7 @@
   --hover-color-light: #ddd;
   --button-bg-light: #e0e0e0;
   --button-hover-light: #ccc;
-  --sidebar-bg-light: #ffffff;
+  --sidebar-bg-light: var(--sidebar-bg) #ffffff;
 
   --primary-color-dark: #1e1e1e;
   --secondary-color-dark: #2e2e2e;
@@ -14,4 +14,39 @@
   --button-bg-dark: #333;
   --button-hover-dark: #444;
   --sidebar-bg-dark: #2e2e2e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body { 
+display: flex;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-atual); /* Usa a cor ativa */
+  color: var(--text-atual);          /* Usa o texto ativo */
+  transition: background-color 0.3s, color 0.3s;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container_lista {
+  width: 10%;
+  height: 100%;
+  /* position: fixed; */
+  background-color: var(--sidebar-atual); /* Usa a cor de sidebar ativa */
+  color: var(--text-atual);
+  transition: background-color 0.3s, color 0.3s;
+  border-right: 1px solid rgba(0,0,0,0.1); /* Uma bordinha sutil */
+}
+
+.conteudo{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #b6b3b3;
+    
 }
