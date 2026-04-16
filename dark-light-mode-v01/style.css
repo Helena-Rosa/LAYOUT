@@ -1,0 +1,17 @@
+:root {
+  --primary-color-light: #f0f0f0;
+  --secondary-color-light: #ffffff;
+  --text-color-light: #333;
+  --hover-color-light: #ddd;
+  --button-bg-light: #e0e0e0;
+  --button-hover-light: #ccc;
+  --sidebar-bg-light: #ffffff;
+
+  --primary-color-dark: #1e1e1e;
+  --secondary-color-dark: #2e2e2e;
+  --text-color-dark: #f0f0f0;
+  --hover-color-dark: #555;
+  --button-bg-dark: #333;
+  --button-hover-dark: #444;
+  --sidebar-bg-dark: #2e2e2e;
+}
