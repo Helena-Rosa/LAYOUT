@@ -9,22 +9,32 @@
 
 }
 
-.page{
-
+.header{
+    background-color: var(--primary-color);
 }
 
-.control-group{
 
+body.dark{
+    --text-color: #f1f1f1;
+    --bg-color: #121212;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 
 .main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 
-.news{
-
+html{
+    font-family: var(--font-family);
 }
+
+
+
 
 /* quando o body estiver com a classe. dark*/
 body{
